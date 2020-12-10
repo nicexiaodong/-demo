@@ -7,7 +7,7 @@
 //
 
 #import "CDViewController.h"
-
+#import <SystemServices/SystemServices.h>
 @interface CDViewController ()
 
 @end
@@ -18,6 +18,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    //获取硬件信息
+    SystemServices *sys = [SystemServices sharedServices];
+    
+    NSLog(@"%@",[sys.allSystemInformation description]);
+    
 }
 
 - (void)didReceiveMemoryWarning
