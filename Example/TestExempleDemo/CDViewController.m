@@ -7,7 +7,7 @@
 //
 
 #import "CDViewController.h"
-#import <SystemServices/SystemServices.h>
+//#import <SystemServices/SystemServices.h>
 @interface CDViewController ()
 
 @end
@@ -20,9 +20,9 @@
 	// Do any additional setup after loading the view, typically from a nib.
     
     //获取硬件信息
-    SystemServices *sys = [SystemServices sharedServices];
-    
-    NSLog(@"%@",[sys.allSystemInformation description]);
+//    SystemServices *sys = [SystemServices sharedServices];
+//
+//    NSLog(@"%@",[sys.allSystemInformation description]);
     
 }
 
