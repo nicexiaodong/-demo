@@ -4,7 +4,7 @@ platform :ios, '8.0'
 
 target 'TestExempleDemo_Example' do
   pod 'TestExempleDemo', :path => '../'
-  pod 'SystemServices', '~> 2.0.1'
+#  pod 'SystemServices', '~> 2.0.1'
   target 'TestExempleDemo_Tests' do
     inherit! :search_paths
 

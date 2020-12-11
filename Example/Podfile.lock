@@ -1,23 +1,16 @@
 PODS:
-  - SystemServices (2.0.1)
   - TestExempleDemo (0.1.0)
 
 DEPENDENCIES:
-  - SystemServices (~> 2.0.1)
   - TestExempleDemo (from `../`)
-
-SPEC REPOS:
-  trunk:
-    - SystemServices
 
 EXTERNAL SOURCES:
   TestExempleDemo:
     :path: "../"
 
 SPEC CHECKSUMS:
-  SystemServices: 7af348493ece8951449b476c41532df72569b181
-  TestExempleDemo: de561304fb036e90d3703a674ff421d1420cc2af
+  TestExempleDemo: 08a4b43d4015d2eaedb6d8c45ef249a8d703cf03
 
-PODFILE CHECKSUM: bc168047059222e302e061bf7060248ab6b72949
+PODFILE CHECKSUM: b142a5cb9532f711e7a36d26f6689fa4c9eb209e
 
 COCOAPODS: 1.10.0

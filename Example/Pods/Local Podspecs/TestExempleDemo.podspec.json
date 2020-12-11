@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "summary": "A short description of TestExempleDemo.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/3397838812@qq.com/TestExempleDemo",
+  "homepage": "https://github.com/nicexiaodong/-demo",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "3397838812@qq.com": "3397838812@qq.com"
   },
   "source": {
-    "git": "https://github.com/3397838812@qq.com/TestExempleDemo.git",
+    "git": "https://github.com/nicexiaodong/-demo.git",
     "tag": "0.1.0"
   },
   "platforms": {
